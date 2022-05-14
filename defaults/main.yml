@@ -1,4 +1,7 @@
 ---
+# configure nginx on this node
+nginx_configure: false
+
 # Used only for Debian/Ubuntu installation, as the -t option for apt.
 nginx_default_release: ""
 
