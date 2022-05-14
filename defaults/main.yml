@@ -69,7 +69,7 @@ nginx_vhosts: []
 # - listen: "80" # default: "80"
 #   server_name: "example.com" # default: N/A
 #   root: "/var/www/example.com" # default: N/A
-#   index: "index.html index.htm" # default: "index.html index.htm"
+#   index: "index.html index.htm" # default: N/A
 #   filename: "example.com.conf" # Can be used to set the vhost filename.
 #
 #   # Properties that are only added if defined:
