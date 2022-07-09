@@ -11,6 +11,7 @@ server {
 {% endif %}
 {% endblock %}
 
+proxy_cache_path cache/ keys_zone=auth_cache:10m;
 server {
     {% block server_begin %}{% endblock %}
 
